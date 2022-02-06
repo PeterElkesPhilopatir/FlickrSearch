@@ -1,4 +1,7 @@
 # Flickr
+![Search With ads](https://user-images.githubusercontent.com/22428532/152683306-350a7bfa-6b77-4091-9a61-ccfe91fdabff.jpg)
+![Details](https://user-images.githubusercontent.com/22428532/152683317-37a1fe6d-ffc5-4276-9916-ef10b36c6d16.jpg)
+![loading](https://user-images.githubusercontent.com/22428532/152683336-50db336a-52a0-47b1-a4ec-b2061c9b6876.jpg)
 
 ## About
 Android application fetches photos from https://newsapi.org/
