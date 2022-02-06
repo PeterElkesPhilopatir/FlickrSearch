@@ -70,10 +70,7 @@ class SearchFragment : Fragment() {
                 }
             }
         }
-        adapter.addLoadStateListener {
-            if (it.refresh == LoadState.Loading)
-                Toast.makeText(context, "Loading", Toast.LENGTH_SHORT).show()
-        }
+
         lifecycleScope.launch {
             viewModel.listData.collectLatest {
                 adapter.submitData(it)

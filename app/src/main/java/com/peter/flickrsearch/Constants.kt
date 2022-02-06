@@ -6,6 +6,6 @@ object Constants {
     const val METHOD = "flickr.photos.search"
     const val FORMAT = "json"
     const val NO_JSON_CALLBACK = 50
-    const val PER_PAGE = 2
+    const val PER_PAGE = 6
     const val OK = "ok"
 }

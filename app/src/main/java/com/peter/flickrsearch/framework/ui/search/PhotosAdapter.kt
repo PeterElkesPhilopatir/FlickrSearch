@@ -66,14 +66,12 @@ class PhotosViewHolder(private var binding: PhotoItemBinding) :
     RecyclerView.ViewHolder(binding.root) {
     fun bind(photo: Photo) {
         binding.data = photo
+        binding.executePendingBindings()
         if(itemViewType == ITEM_TYPE_BANNER_AD){
             val adRequest = AdRequest.Builder().build()
             binding.adView.loadAd(adRequest)
             binding.adView.visibility = View.VISIBLE
         }
-
-
-        binding.executePendingBindings()
     }
 }
 
