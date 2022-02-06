@@ -1,3 +1,11 @@
+# Flickr
+
+## About
+Android application fetches photos from https://newsapi.org/
+
+## How to use
+
+```python
 # Project-wide Gradle settings.
 # IDE (e.g. Android Studio) users:
 # Gradle settings configured through the IDE *will override*
@@ -20,3 +28,32 @@ android.enableJetifier=true
 # Kotlin code style for this project: "official" or "obsolete":
 kotlin.code.style=official
 API_KEY="YOUR_API_KEY"
+```
+
+## This application uses
+*  [Kotlin](https://kotlinlang.org/)
+
+*  [Retrofit](https://square.github.io/retrofit/)
+
+*  [Gson](https://github.com/google/gson)
+
+*  [Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
+
+*  [Databinding](https://developer.android.com/topic/libraries/data-binding)
+
+*  [Glide](https://github.com/bumptech/glide)
+
+*  [Coroutines](https://developer.android.com/kotlin/coroutines)
+
+*  [MVVM](https://developer.android.com/topic/libraries/architecture/viewmodel)
+
+*  [Paging 3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview)
+
+*  [Navigation](https://developer.android.com/guide/navigation)
+
+*  [Room](https://developer.android.com/training/data-storage/room)
+
+*  [AdMob](https://apps.admob.com/)
+
+
+
